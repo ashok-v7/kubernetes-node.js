@@ -1,0 +1,8 @@
+version: '3.9'
+image.png
+services:
+  myapp:
+    image: myapp:1.0.1
+    build: .
+    ports:
+      - 3000:3000
